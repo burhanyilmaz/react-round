@@ -1,0 +1,30 @@
+{
+  "name": "react-round",
+  "version": "1.0.1",
+  "description": "Round Library",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "build": "rm -rf .cache && rm -rf dist && parcel build ./index.js  --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhanyilmaz/react-round.git"
+  },
+  "keywords": [
+    "react",
+    "round"
+  ],
+  "author": "Burhan YILMAZ",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "parcel-bundler": "^1.9.7"
+  }
+}
